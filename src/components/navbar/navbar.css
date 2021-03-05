@@ -6,10 +6,20 @@
   flex-direction: row;
   padding: 30px;
   align-items: center;
+  position: fixed;
+  overflow: hidden;
+  top: 0;
 }
 #site-name {
   margin-top: 10px;
+  padding: 20px;
+  font-family: Poppins;
+  color: black;
+  text-align: center;
 }
 .navbar-icon {
   height: 50px;
+}
+.cart:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
