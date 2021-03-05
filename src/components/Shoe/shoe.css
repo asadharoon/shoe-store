@@ -1,0 +1,21 @@
+.shoeImg {
+  object-fit: contain;
+  height: 500px;
+  border-radius: 30px;
+}
+.shoeImg:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.shoeName {
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 12pt;
+  color: black;
+  font-family: "Poppins";
+}
+.shoeCol {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
